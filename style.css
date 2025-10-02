@@ -1,0 +1,10 @@
+/* Add a smooth transition to the cards */
+.preview-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Add a "lift" effect when hovering over the cards */
+.preview-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
